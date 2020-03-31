@@ -1,0 +1,16 @@
+Column Name,Type,Description
+ReportTime,string,Time of encounter
+Sha256,string,Unique identifier of the file hash (scrubbed)
+isPeFile,bool,
+isValidSignedFile,bool,
+fileSize,double,
+filePrevalence,double,
+GeoId,double,
+Extension,string,
+ImportFunctionCount,int?,
+ImportModuleCount,int?,
+PeAppendedSize,long?,
+PeHeaderChecksum,int?,
+PeTimestamp,DateTime?,
+FirstObserved,DateTime?,When the file was first observed in our telemetry
+Label,string,"""clean"" or ""malware"""
